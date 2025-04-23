@@ -18,7 +18,7 @@
     },
     "homepage": "https://github.com/your-org/realtime-transcriptions#readme",
     "dependencies": {
-        "@google-cloud/speech": "^5.6.0",
+        "@google-cloud/speech": "^7.0.1",
         "axios": "^1.6.0",
         "dotenv": "^16.3.1",
         "express": "^4.19.2",
