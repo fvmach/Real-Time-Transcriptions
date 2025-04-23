@@ -1,0 +1,25 @@
+# 🧠 Real-Time Transcriptions – Twilio Voice AI Samples
+
+This repository provides end-to-end examples for real-time voice processing with Twilio, showcasing different approaches to speech-to-text, audio streaming, and AI agent interactions.
+
+> ✅ Compiled and customized for Meli (Mercado Libre) to demonstrate real-time transcription and conversational AI capabilities using Twilio APIs.
+
+---
+
+## 📂 Structure
+
+| Folder                  | Description                                                                 |
+|-------------------------|-----------------------------------------------------------------------------|
+| `conversation-relay/`   | Sample WebSocket-based assistant using `<ConversationRelay>` with LLM + TTS/STT |
+| `media-streams/`        | Twilio `<Stream>`-based integrations using Deepgram, Google, or AssemblyAI |
+| `realtime-transcriptions/` | Using Twilio’s REST API for mid-call transcription injection             |
+| `voice-intelligence/`   | Post-call Voice Intelligence summaries, sentiment, and triggers             |
+| `.env.example`          | Template for environment variables (copy to `.env` and fill in your keys)  |
+
+---
+
+## 🚀 Getting Started
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/fvmach/Real-Time-Transcriptions.git
